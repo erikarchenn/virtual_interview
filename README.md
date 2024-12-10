@@ -14,6 +14,42 @@ Below you will find instructions on how to fire up the virtual mock interview.
    ```sh
    voice="nova",
    ```
+2. If you decide to keep or change the voice, it is totally up to you! You must run `utils.py` first to initialize all starting data and information. Furthermore, you can now run `app.py` to fire up the program.
    
-3. 
+3. Initially, you will see this when you first run it in the terminal:
+```sh
+ streamlit run /Users/erikachen/Downloads/CS366/app.py [ARGUMENTS]
+2024-12-10 17:46:30.052 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Session state does not function when running a script without `streamlit run`
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.053 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.425 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.425 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.425 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.425 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.425 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+2024-12-10 17:46:30.426 Thread 'MainThread': missing ScriptRunContext! This warning can be ignored when running in bare mode.
+```
+Once you see this, copy and paste the arguments as shown above on your screen with your information into the terminal and run it. The program should fire up on your browser.
 
+4. To begin the interview, you must click on the microphone (be sure that it has been enabled) to introduce yourself to the virtual interviewer. Please click on the microphone to stop talking and allow the program to process what has been said. The interviewer will respond and you can begin your virtual interview as questions follow. There are 7 questions that will be asked in the interview.
+
+5. As you progress, the interviewer will provide feedback and respond to what you have said, and bid you farewell as you complete the interview. 
